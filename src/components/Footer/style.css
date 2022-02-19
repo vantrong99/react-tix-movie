@@ -1,0 +1,98 @@
+.my__footer .row{
+    width: 100%;
+}
+.my__footer{
+    background-color: #222;
+    color: #949494;
+    font-size: 80%;
+    padding: 20px 0px;
+    
+}
+.my__logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.my__logo .col{
+    padding-bottom: 20px;
+}
+.my__footer span img{
+    height: 30px;
+    width: auto;
+    margin: 0 5px;
+}
+.my__footer h4{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 8px;
+}
+.my__icon {
+    text-align: center;
+}
+.my__footer p a{
+    font-weight: 600;
+    color: #949494;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.my__footer p a:hover{
+
+    color: white;
+}
+.footer__top{
+    border-bottom: 1px solid #949494;
+    padding-bottom: 20px;
+}
+/* @media screen and (max-width:968px){
+.footer__top{
+    display: none
+};
+} */
+@media screen and (max-width:1200px){
+    .my__content{
+        display: none
+    };
+}
+@media screen and (max-width:992px){
+    .my__logo{
+        display: none
+    };
+   
+}
+.footer__bottom{
+    padding: 20px 0;
+}
+.footer__bottom .row{
+    width: 100%;
+}
+.footer__bottom p{
+    padding: 0;
+    margin: 0;
+}
+.footer__bottom span{
+    color: red;
+}
+.footer__bottom p:nth-child(1){
+    color: white;
+}
+.footer__bottom p:last-child{
+    color: #24b1bf;
+}
+.footer__btimg img{
+    width: 130px;
+}
+.footer__logobottom img{
+    width: 80px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.bottom__content{
+    padding-left: 16px;
+}
+@media screen and (max-width:992px){
+    
+    .footer__bottom{
+        text-align: center;
+    }
+}

@@ -1,0 +1,72 @@
+.my__ungdung img{
+   width: 100%;
+   /* height: 800px; */
+}
+#my__img{
+    height: 800px;
+}
+.my__ungdung{
+    position: relative;
+}
+.my__ungdung .row{
+    width: 100%;
+}
+.ungdung__content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    width: 70%;
+}
+.ungdung__content h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.ungdung__mobile img{
+   width: 100%;
+}
+.ungdung__mobile{
+    position: relative;
+    width: 200px;
+    height: 420px;
+}
+.ungdung__slider{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 40px;
+    padding: 10px 5px;
+}
+.slider__item img{
+  width: 100%;
+}
+.ungdung__content a{
+    background-color: #fb4226;
+    padding: 10px 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+}
+.ungdung__content a:hover{
+    text-decoration: none;
+    color: white;
+}
+.ungdung__btn{
+    padding: 30px 0;
+}
+.ungdung__content span{
+    border-bottom: 1px solid white;
+}
+@media screen and (max-width:576px){
+    .dis__play{
+        display: none;
+    }
+}

@@ -1,0 +1,220 @@
+.movie__banner img{
+    width: 100%;
+    filter: blur(8px);
+    height: 500px;
+    transform: scaleY(.91);
+}
+
+.movie__detail{
+    padding-top: 60px;
+    position: relative;
+}
+.movie__overplay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg,#0a2029,transparent);
+    width: 100%;
+    height: 100%;
+}
+.movie__content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    padding: 0 200px;
+}
+.movie__content .row{
+    width: 100%;
+}
+.content__img img{
+    width: 215px;
+    height: 318px;
+}
+.content__info{
+    color: #fff;
+    padding-left: 60px !important;
+}
+.content__info p{
+    margin: 0;
+    padding-bottom: 16px;
+}
+.content__info p span{
+    font-size: 16px;
+    background-color: #fb4226;
+    border-radius: 4px;
+    padding: 0 5px;
+    color: #fff;
+    min-width: 33px;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 8px;
+}
+.content__info a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    /* transition: all 0.5s; */
+    border: 1px solid #fb4226;
+    background: linear-gradient(270deg,#fb4226,#ce3017);
+    border-radius: 5px;
+    padding: 7px 16px;
+}
+.content__info a:hover{
+    text-decoration: none;
+    color: white;
+    background: #fb4226;
+    border:1px solid #ce3017;
+}
+.movie__name{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+#bar{
+    
+    clip-path: polygon(50% 0%, 100% 0px, 100% 100%, 0px 100%, 0px 0px, 0px 41.4286%, 50% 50%);
+}
+.point__detail{
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.6);
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.point__boder{
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    border: 7.5px solid #3a3a3a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: content-box;
+}
+#bar{
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 7.5px solid #44c020;
+    box-sizing: content-box;
+    clip-path: polygon(50% 0%, 100% 0px, 100% 100%, 0px 100%, 0px 0px, 0px 41.4286%, 50% 50%);
+}
+.movie__point{
+    color: #e9e9e9;
+    font-size: 3rem;
+}
+.movie__star img{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+.movie__star{
+    margin: 10px 0px;
+}
+.movie__danhgia{
+    text-align: center;
+}
+.people__danhgia{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.content__img{
+    position: relative;
+}
+.my__overplay{
+    position: absolute;
+    top: 0;
+    width: 215px;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 1;
+}
+.content__img:hover .my__overplay{
+    opacity: 0.4;
+}
+.play__overplay img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+.content__img:hover .play__overplay img{
+    opacity: 1;
+}
+.play__overplay:hover img{
+    opacity: 0.6 !important;
+}
+.modal-backdrop{
+    display: none !important;
+}
+.more__info{
+    background: #0a2029;
+    color: #e9e9e9;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.more__info .nav-link.active{
+    color: rgb(247, 76, 8) !important
+}
+.more__info .nav-item a{
+    font-size: 24px;
+    color: white !important;
+}
+.nav__more{
+   width: 950px;
+}
+.more__navigation{
+    justify-content: center;
+}
+.booking a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+  
+    border: 1px solid #fb4226;
+    background: linear-gradient(270deg,#fb4226,#ce3017);
+    border-radius: 5px;
+    padding: 7px 16px;
+}
+.booking a:hover{
+    text-decoration: none;
+    color: white;
+    background: #fb4226;
+}
+.nav__more .table thead th{
+    font-size: 16px;
+    color: #fb4226;
+}
+.nav__more .table tbody td{
+    font-size: 16px ;
+    color: #e9e9e9 ;
+}
+.info__movie .row{
+    width: 100%;
+}
+.info__movie{
+    font-size: 16px ;
+    color: #e9e9e9 ;
+}

@@ -1,0 +1,138 @@
+.card__movie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.main__top img{
+    height: 318px;
+      width: 215px;
+      border-radius: 5px;
+    }
+
+.main__top{
+    position: relative;
+}
+.top__overplay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: all 0.3s;
+    border-radius: 5px;
+    z-index: 1;
+}
+.card__movie:hover .top__overplay{
+    opacity: 0.4;
+}
+.main__bottom {
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    position: relative;
+}
+.main__bottom p span{
+    font-size: 14px;
+    background-color: #fb4226;
+    border-radius: 4px;
+    padding: 0 5px;
+    color: #fff;
+    min-width: 33px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 8px;
+}
+.main__bottom p{
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 215px;
+}
+
+.bottom__overplay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-color: #fb4226;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.bottom__overplay:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #c32a13;
+}
+.card__movie:hover .bottom__overplay{
+    opacity: 1;
+}
+.card__movie:hover .main__bottom p{
+    opacity: 0;
+}
+.img__overplay img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 100;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0;
+    transition: all 0.3s;
+}
+.card__movie:hover .img__overplay img{
+    opacity: 1 ;
+}
+.img__overplay:hover img{
+    opacity: 0.6 !important;
+}
+.point{
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    background-color: rgba(12,27,54,.8);
+    border: 1px solid #1f2e46;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    top: 12px;
+    right: 12px;
+    z-index: 10000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.point__star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point__star img{
+    width: 8px;
+    height: 8px;
+}
+/* .card__main{
+    justify-content: center;
+    align-items: center;
+} */
+/* @media screen and (max-width:480px){
+    .main__top img{
+        height: 120px;
+          width: 80px;
+          
+        }
+} */

@@ -1,0 +1,310 @@
+.my__theater .nav-pills .nav-link.active{
+    color: black;
+}
+.theater__logo img{
+    width: 50px;
+    height: 50px;
+}
+.row{
+    width: 100% !important;
+}
+
+/* Lich Chieu */
+.lich__chieu img{
+    width: 50px;
+    height: 50px;
+}
+.my__theater{
+    display: flex;
+    width: 80vw;
+}
+.row{
+    width: 100% !important;
+}
+
+.theater__logo img{
+    width: 50px;
+    height: 50px;
+}
+.theater__logo{
+    border-bottom: solid 1px  #ebebec;
+    padding: 15px;
+    opacity: 0.5;
+}
+.theater__logo:hover{
+    opacity: 1 !important;
+}
+.theater__list{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ebebec;
+    width: 120px ;
+    /* height: 500px; */
+}
+.theater__detail .nav-link{
+    padding: 0;
+}
+.theater__detail{
+    border: 1px solid #ebebec;
+    padding-left: 20px;
+    height: 500px;
+}
+.rap__chitiet{
+    height: 500px;
+    overflow-y: scroll;
+}
+.my__theater{
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 20px;
+    /* box-shadow: 0 2px 4px 0 rgba(20, 23, 28, 0.2); */
+}
+.rap__detail img{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.rap__detail{
+    display: flex;
+    padding: 15px 0px;
+    border-bottom: solid 1px #ebebec;
+  
+    
+}
+.theater__detail::-webkit-scrollbar {
+    width: 4px; 
+}
+.cum__rap{
+    display: flex;
+} 
+
+/* Track */
+.theater__detail::-webkit-scrollbar-track {
+    border-radius: 10px;
+
+    /* display: none; */
+}
+
+.rap__content{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.rap__detail span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.theater__detail a{
+    color: black;
+}
+.theater__detail a:hover{
+    color: black;
+}
+.rap__add{
+    font-size: 12px;
+    color: #949494;
+   
+}
+
+
+.nav {
+    flex-wrap: nowrap !important;
+}
+.theater__list .nav-link{
+    padding: 0;
+}
+.nav-link.active{
+    background-color: transparent !important;
+}
+.nav-link.active .theater__logo{
+    opacity: 1;
+}
+.detail__theater{
+    display: flex;
+}
+
+/* CODE MOI */
+.rap__chitiet{
+    width: 320px;
+    padding-top: 3px;
+}
+.rap__detail{
+    opacity: 0.5;
+}
+.nav-link.active .rap__detail{
+    opacity: 1;
+}
+/* lịch chiếu */
+.lichchieu__chitiet{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    overflow-y: scroll;
+    padding-top: 3px;
+    position: relative;
+    border-bottom: 1px solid #ebebec;
+}
+.lich__chieu{
+    display: flex;
+    width: 424px;
+    padding: 15px 0px;
+    margin-left: 20px;
+    border-bottom: solid 1px #ebebec;
+}
+.lichchieu__info{
+    margin-left: 20px;
+}
+.lichchieu__info span p{
+    font-size: 14px;
+    background-color: #fb4226;
+    border-radius: 4px;
+    padding: 0 5px;
+    color: #fff;
+    min-width: 33px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 8px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.name__movie{
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+.lich__chieu  a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #108f3e;
+    text-decoration: none;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin-left: 30px;
+    background-color: rgba(246,246,246,.5);
+    transition: all 0.5s;
+}
+.name__tenrap{
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.lich__chieu a:hover{
+    color: #fb4226;
+    text-decoration: none;
+}
+.lichchieu__chitiet .tab-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: white;
+}
+
+.rap__chitiet::-webkit-scrollbar{
+    width: 6px;
+    }
+.rap__chitiet::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #999; 
+}
+.rap__chitiet::-webkit-scrollbar-track {
+    background: rgba(172, 167, 167, 0.8); 
+    border-radius: 10px;
+  }
+  .lichchieu__chitiet::-webkit-scrollbar{
+    width: 6px;
+    }
+.lichchieu__chitiet::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #999; 
+}
+.lichchieu__chitiet::-webkit-scrollbar-track {
+    background: rgba(172, 167, 167, 0.8); 
+    border-radius: 10px;
+  }
+  .my__rap{
+      display: flex;
+      justify-content: center;
+  }
+  .phim__item img{
+      width: 156px;
+      height: 230px;
+      border-radius: 8px;
+  }
+  .ngay__Gio a{
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all .5s;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: rgba(246,246,246,.5);
+    border-radius: 7px;
+    color: #9b9b9b;
+    border: 1px solid #e4e4e4;
+    width: 156px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+  }
+  .gio__Chieu{
+    font-size: 18px;
+    font-weight: 500;
+    color: #108f3e;
+    transition: all 0.5s;
+  }
+  .phim__item{
+      margin-left: 6px;
+      border-bottom: solid 1px #ebebec;
+      margin-top: 17px;
+  }
+  .ngaychieu__giochieu{
+     padding-top: 20px;
+     padding-bottom: 10px;
+  }
+  .ngay__Gio a:hover {
+      text-decoration: none;
+      color: #9b9b9b;
+  } 
+  .ngay__Gio a:hover .gio__Chieu{
+      color: #fb4226;
+  }
+  .phim__intro{
+      display: flex;
+  }
+  .phim__info{
+      padding-left: 6px;
+  }
+  .phim__info span{
+      color: white;
+      background-color: #fb4226;
+  }
+  .phim__info h3{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 2px;
+  }
+  .phim__info span{
+    color: white;
+    margin-right: 8px;
+    background-color: #fb4226;
+    padding: 0px 6px;
+    font-size: 20px;
+    border-radius: 6px;
+  }
+  .phim__info p{
+      border: solid 2px #108f3e;
+      text-align: center;
+      width: 120px;
+      padding: 4px 0;
+      border-radius: 6px;
+      letter-spacing: 1px;
+      font-weight: 500;
+      margin-top: 16px;
+      color: #fb4226;
+  }

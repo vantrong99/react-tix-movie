@@ -1,0 +1,50 @@
+.ghe__thuong{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    background: #3e515d;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+}
+.ghe__vip{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    background: #f7b500;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+}
+.da__dat{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    background: #ccc;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+    cursor: no-drop;
+}
+.row__chair button{
+   padding: 0;
+}
+.dang__dat{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    color: white;
+    background: #44c020;
+    border: 1px solid #ccc;
+    text-align: center;
+    border-radius: 4px;
+}
+
+

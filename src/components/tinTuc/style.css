@@ -1,0 +1,91 @@
+html,body{
+    scroll-behavior: smooth;
+}
+.movie__news{
+    color:#4a4a4a;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.my__news{
+    width: 950px;
+}
+.news__navigation{
+    display: flex;
+    justify-content: center;
+}
+.news__navigation .nav-item .nav-link.active{
+    color: rgb(247, 76, 8) !important;
+}
+.news__navigation a{
+    font-size: 24px;
+}
+.news__navigation a:hover,.news__navigation .nav-item .nav-link.active{
+    transform: scale(1.2);
+}
+.top__news img{
+    width: 100%;
+    /* height: 250px; */
+    border-radius: 5px;
+}
+.dien__Anh .row{
+    width: 100%;
+}
+.dien__Anh p{
+    margin: 0;
+    padding: 0;
+}
+.bottom__news img{
+    width: 100%;
+
+    border-radius: 5px;
+}
+.mini__news img{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+.mini__news p{
+    display: flex;
+ 
+}
+.mini__news a p{
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+}
+.mini__news a p img{
+    margin-right: 10px;
+}
+.dien__Anh a {
+    text-decoration: none;
+    color: black;
+}
+.dien__Anh a:hover {
+    text-decoration: none;
+    color: black;
+}
+.dien__Anh a p{
+   font-weight: 600;
+   transition: all 0.2s;
+   padding: 10px 0;
+}
+.dien__Anh a p:hover{
+    color: red;
+}
+.bottom__news{
+    padding-top: 20px;
+}
+@media screen and (max-width:992px){
+    .mini__news{
+        display: none;
+    }
+}
+@media screen and (max-width:530px){
+    .news__navigation a{
+        font-size: 16px;
+    }
+}
+.nav-pills .nav-link.active{
+    background-color: transparent !important;
+}
